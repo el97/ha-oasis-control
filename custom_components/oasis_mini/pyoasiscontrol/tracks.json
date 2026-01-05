@@ -53,6 +53,24 @@
     "author": "Otávio Bitencourt",
     "reduced_svg_content_new": 40107
   },
+  "10447": {
+    "id": 10447,
+    "name": "2026",
+    "code": "2026-2",
+    "description": null,
+    "image": "2025/12/fdc3ed86d5d660031e2374b3db214747.svg",
+    "category_id": null,
+    "tags": "",
+    "public": 1,
+    "author_id": 1206,
+    "release": 1,
+    "is_cleaner": 0,
+    "pattern_id": null,
+    "clean_type": "clean_out",
+    "png_image": "2025/12/fa56c164c5e6a8b2a5ee25b4bc19ad59.png",
+    "author": "Otávio Bitencourt",
+    "reduced_svg_content_new": 25458
+  },
   "2505": {
     "id": 2505,
     "name": "3 Spiros",
@@ -2212,24 +2230,6 @@
     "png_image": "2024/12/3699a2572debbad04129d1f1b203c3e6.png",
     "author": "Lemon Goose",
     "reduced_svg_content_new": 4428
-  },
-  "4842": {
-    "id": 4842,
-    "name": "Christmas Tree and Full Moon",
-    "code": "christmas-tree-and-full-moon",
-    "description": null,
-    "image": "2024/10/1f7528ba4c10860c1cd454bccbbf59b8.svg",
-    "category_id": null,
-    "tags": "",
-    "public": 1,
-    "author_id": 1206,
-    "release": 1,
-    "is_cleaner": 0,
-    "pattern_id": null,
-    "clean_type": "clean_out",
-    "png_image": "2024/10/1f7528ba4c10860c1cd454bccbbf59b8.png",
-    "author": "Otávio Bitencourt",
-    "reduced_svg_content_new": 70244
   },
   "852": {
     "id": 852,
@@ -10312,24 +10312,6 @@
     "png_image": "2024/10/c6224c79ec4c7cf6ad350cdd85e36d0b.png",
     "author": "Otávio Bitencourt",
     "reduced_svg_content_new": 59249
-  },
-  "5153": {
-    "id": 5153,
-    "name": "Santa Claus With Gifts",
-    "code": "santa-claus-with-gifts",
-    "description": null,
-    "image": "2024/11/c8ece06391aefd86ee7e7277d664c691.svg",
-    "category_id": null,
-    "tags": "",
-    "public": 1,
-    "author_id": 1206,
-    "release": 1,
-    "is_cleaner": 0,
-    "pattern_id": null,
-    "clean_type": "clean_out",
-    "png_image": "2024/11/e1364aa8fc67ca9f99f93734a4d90233.png",
-    "author": "Otávio Bitencourt",
-    "reduced_svg_content_new": 43591
   },
   "2240": {
     "id": 2240,
