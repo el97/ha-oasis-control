@@ -132,8 +132,8 @@ DESCRIPTORS = (
         entity_category=EntityCategory.CONFIG,
         options=AUTOPLAY_MAP_LIST,
         current_value=lambda device: str(device.autoplay),
-        select_fn=lambda device, index: (
-            device.async_set_autoplay(AUTOPLAY_MAP_LIST[index])
+        select_fn=lambda device, index: device.async_set_autoplay(
+            AUTOPLAY_MAP_LIST[index]
         ),
     ),
     OasisDeviceSelectEntityDescription(
