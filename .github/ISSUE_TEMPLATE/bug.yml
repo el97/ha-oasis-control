@@ -26,10 +26,7 @@ body:
       description: "Provide the exact model name(s) if you selected 'Other' above."
       placeholder: "Example: Oasis Pro, Oasis Wall Unit"
     validations:
-      required: true
-    if:
-      field: "Device type(s)"
-      contains: "Other"
+      required: false
 
   - type: input
     attributes:
