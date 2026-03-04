@@ -6,6 +6,39 @@ body:
   - type: markdown
     attributes:
       value: Before you open a new issue, search through the existing issues (open and closed) to see if others have had the same problem.
+
+  - type: dropdown
+    attributes:
+      label: "Device type(s)"
+      description: "Select all Oasis device types affected by this issue."
+      multiple: true
+      options:
+        - Oasis Mini
+        - Side Table
+        - Coffee Table
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: "If 'Other' is selected, specify device type(s)"
+      description: "Provide the exact model name(s) if you selected 'Other' above."
+      placeholder: "Example: Oasis Pro, Oasis Wall Unit"
+    validations:
+      required: true
+    if:
+      field: "Device type(s)"
+      contains: "Other"
+
+  - type: input
+    attributes:
+      label: "Oasis firmware version(s)"
+      description: "Enter the firmware version shown in the Oasis app or device settings. If reporting multiple devices with different versions, list each one."
+      placeholder: "Example: 2.80 (Mini), 1.50 (Side Table)"
+    validations:
+      required: true
+
   - type: input
     attributes:
       label: "Home Assistant version"
@@ -13,6 +46,7 @@ body:
       placeholder: "2025.11.0"
     validations:
       required: true
+
   - type: input
     attributes:
       label: "Integration version"
@@ -20,12 +54,14 @@ body:
       placeholder: "2.0.0"
     validations:
       required: true
+
   - type: textarea
     attributes:
       label: "System Health details"
       description: "Paste the data from the System Health card in Home Assistant (https://www.home-assistant.io/more-info/system-health#github-issues)"
     validations:
       required: false
+
   - type: checkboxes
     attributes:
       label: Checklist
@@ -38,12 +74,14 @@ body:
           required: true
         - label: This issue is not a duplicate issue of any [previous issues](https://github.com/natekspencer/ha-oasis-control/issues?q=is%3Aissue+).
           required: true
+
   - type: textarea
     attributes:
       label: "Describe the issue"
-      description: "A clear and concise description of what the issue is."
+      description: "If multiple devices are selected, clarify whether the issue affects all devices or only specific ones."
     validations:
       required: true
+
   - type: textarea
     attributes:
       label: Reproduction steps
@@ -55,6 +93,7 @@ body:
         ...
     validations:
       required: true
+
   - type: textarea
     attributes:
       label: "Debug logs"
