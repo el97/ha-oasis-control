@@ -7,16 +7,15 @@ body:
     attributes:
       value: Before you open a new issue, search through the existing issues (open and closed) to see if others have had the same problem.
 
-  - type: dropdown
+  - type: checkboxes
     attributes:
       label: "Device type(s)"
       description: "Select all Oasis device types affected by this issue."
-      multiple: true
       options:
-        - Oasis Mini
-        - Side Table
-        - Coffee Table
-        - Other
+        - label: Oasis Mini
+        - label: Side Table
+        - label: Coffee Table
+        - label: Other (specify below)
     validations:
       required: true
 
@@ -24,7 +23,6 @@ body:
     attributes:
       label: "If 'Other' is selected, specify device type(s)"
       description: "Provide the exact model name(s) if you selected 'Other' above."
-      placeholder: "Example: Oasis Pro, Oasis Wall Unit"
     validations:
       required: false
 
@@ -40,7 +38,7 @@ body:
     attributes:
       label: "Home Assistant version"
       description: "The version of Home Assistant you are using"
-      placeholder: "2025.11.0"
+      placeholder: "Example: 2026.3.0"
     validations:
       required: true
 
@@ -48,7 +46,7 @@ body:
     attributes:
       label: "Integration version"
       description: "The version of this custom integration you are using. If you are not running the [latest version](https://github.com/natekspencer/ha-oasis-control/releases/latest), stop, update, and then continue if the issue persists. Issues not pertaining to the latest release will be closed."
-      placeholder: "2.0.0"
+      placeholder: "Example: 2.2.2"
     validations:
       required: true
 
