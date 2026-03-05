@@ -11,12 +11,11 @@ body:
     attributes:
       label: "Device type(s)"
       description: "Select all Oasis device types affected by this issue."
-      multiple: true
       options:
-        - Oasis Mini
-        - Side Table
-        - Coffee Table
-        - Other
+        - label: Oasis Mini
+        - label: Side Table
+        - label: Coffee Table
+        - label: Other (specify below)
     validations:
       required: true
 
