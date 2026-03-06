@@ -16,15 +16,15 @@
     },
     "error": {
       "cannot_connect": "Kunde inte ansluta",
-      "invalid_auth": "Felaktig autensiering",
+      "invalid_auth": "Felaktig autentisering",
       "invalid_host": "Felaktigt värdnamn eller IP-adress",
       "timeout_connect": "Det tog för lång tid att ansluta",
       "unknown": "Oväntat fel"
     },
     "abort": {
       "already_configured": "Kontot är redan konfigurerat",
-      "reauth_successful": "Återautensiering lyckades",
-      "reconfigure_successful": "Återautentisering lyckades",
+      "reauth_successful": "Återautentisering lyckades",
+      "reconfigure_successful": "Omkonfigurering lyckades",
       "wrong_account": "Kontot som används för integrationen bör inte ändras"
     }
   },
@@ -39,7 +39,7 @@
       }
     },
     "error": {
-      "invalid_auth": "ogiltlig autensiering"
+      "invalid_auth": "Ogiltig autentisering"
     }
   },
   "entity": {
@@ -96,10 +96,10 @@
     },
     "sensor": {
       "download_progress": {
-        "name": "Nedladdningsprocess"
+        "name": "Nedladdningsförlopp"
       },
       "drawing_progress": {
-        "name": "Drawing progress"
+        "name": "Ritningsförlopp"
       },
       "error": {
         "name": "Fel",
@@ -129,7 +129,7 @@
         "name": "Senast uppdaterad"
       },
       "led_color_id": {
-        "name": "LED color ID"
+        "name": "LED-färg-ID"
       },
       "status": {
         "name": "Status",
@@ -150,13 +150,13 @@
     },
     "switch": {
       "auto_clean": {
-        "name": "Auto-clean"
+        "name": "Autorengöring"
       }
     }
   },
   "exceptions": {
     "device_busy": {
-      "message": "{name} Är för nuvarande upptagen och kan inte modifieras"
+      "message": "{name} är för nuvarande upptagen och kan inte modifieras"
     },
     "invalid_media": {
       "message": "Felaktig media: {media}"
